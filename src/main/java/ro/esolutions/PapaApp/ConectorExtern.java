@@ -58,7 +58,7 @@ public class ConectorExtern {
 
         for (int i=0; i< biserici.size(); i++)
         {
-            if(biserici.get(i).LunaDeVizita== month)
+            if(biserici.get(i).LunaDeVizita.equals(month))
                 raspuns += biserici.get(i).nume + ",";
         }
 
