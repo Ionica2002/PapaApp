@@ -63,8 +63,8 @@ public class ConectorExtern {
         }
 
 
+        String raspunsCurat = raspuns.substring(0, raspuns.length() - 1);
 
-
-        return raspuns;
+        return raspunsCurat;
     }
 }
